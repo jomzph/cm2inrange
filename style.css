@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+header {
+
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    max-width: fit-content;
+    margin: 0 auto;
+}
+body {
+    background-color:blanchedalmond;
+    padding: 2% 3%;
+}
+.logo {
+    background-color: black;
+    padding: 10px 25px;
+    max-width: 200px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.container {
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 10px;
+   justify-content: center;
+   margin-top: 15px;
+
+}
+.container textarea {
+    flex-grow: 1fr;
+    min-width: 200px;
+    min-height: 50px;
+    text-align: center;
+    text-align-last: center;
+}
+
+input {
+    min-width: 200px;
+    min-height: 50px;
+}
+
+button {
+    font-weight:bold;
+    font-size: larger;
+    padding: 5px 15px;
+    border-style:none;
+    background-color: black;
+    color: aliceblue;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+#sulat{
+    font-size: x-large;
+}
+#una, #dalawa{
+    font-size: x-large;
+}
+
+footer {
+    text-align: center;
+    color: rgb(134, 134, 134);
+}
