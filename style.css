@@ -5,14 +5,14 @@
     padding: 0;
     font-family: 'Kanit', sans-serif;
 }
-header {
-
-    display: flex;
-    flex-direction: column;
+img {
+    margin: 0 auto;
+    display: block;
 }
-h1 {
+h3 {
     max-width: fit-content;
     margin: 0 auto;
+    color: rgb(0, 0, 0);
 }
 body {
     background-color:blanchedalmond;
@@ -26,26 +26,19 @@ body {
     margin: 0 auto;
 }
 
-.container {
-   display: flex;
-   align-items: center;
+.container1 {
+    display: flex;
+    align-items: center;
    flex-wrap: wrap;
    gap: 10px;
    justify-content: center;
-   margin-top: 15px;
-
 }
-.container textarea {
+.container1 textarea {
     flex-grow: 1fr;
     min-width: 200px;
-    min-height: 50px;
+    min-height: 100px;
     text-align: center;
     text-align-last: center;
-}
-
-input {
-    min-width: 200px;
-    min-height: 50px;
 }
 
 button {
@@ -58,11 +51,16 @@ button {
     letter-spacing: 2px;
     border-radius: 5px;
 }
-#sulat{
-    font-size: x-large;
+#sulat, #cjdshipping{
+    font-size: large;
+    text-align: center;
 }
-#una, #dalawa{
+.inputCM {
     font-size: x-large;
+    text-align: center;
+    max-width: 200px;
+    min-width: 50px;
+    min-height: 50px;
 }
 
 footer {

@@ -4,25 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Klever Helper</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <header>
         <img class="logo" src="data:image/png;base64,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" alt="">
-        <h1>Centimeter to Inches Converter (Range)</h1>
-    </header>
-
-    <div class="container">
-            <input type="number" name="firstNumber" class="first" id="una" > to
-            <input type="number" name="secondNumber" class="second" id="dalawa" > 
+        <h3>Centimeter to Inches Converter (Range)</h3>
+    <div class="container1">
+            <input type="number" name="firstNumber" class="inputCM" id="una" > to
+            <input type="number" name="secondNumber" class="inputCM" id="dalawa" > 
             <!-- <button type="button" id="add" onclick="addTable()">Add Input Range</button> -->
             <button type="button" id="myButton">Convert</button>
             <textarea name="total" id="sulat"></textarea>
     </div>
-
-
+    <h3>for CJD Shipping</h3>
+    <div class="container1">
+        <input type="number" name="firstNumber" class="inputCM" id="ship1" > +
+        <input type="number" name="secondNumber" class="inputCM" id="ship2" > 
+        <!-- <button type="button" id="add" onclick="addTable()">Add Input Range</button> -->
+        <button type="button" id="cjd">Compute</button>
+        <textarea name="total" id="cjdshipping"></textarea>
+</div>
     <script src="script.js"></script>
 </body>
 </html>
